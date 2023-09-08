@@ -1,6 +1,6 @@
 const Navigation = () => {
     return (
-        <main>Nav</main>
+        <nav>Nav</nav>
     )
 }
 

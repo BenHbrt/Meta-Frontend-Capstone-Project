@@ -1,6 +1,6 @@
 const BookingPage = () => {
     return (
-        <div>Booking Page</div>
+        <main>Booking Page</main>
     )
 }
 
