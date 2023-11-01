@@ -1,0 +1,21 @@
+@import '../styles/styles.scss';
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_title {
+        @include display-title;
+        color: $pri-green;
+    }
+
+    &_text {
+        @include lead-text;
+        color: $high-dark;
+
+        &-strong {
+            @include card-title;
+        }
+    }
+}

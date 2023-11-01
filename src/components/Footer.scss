@@ -1,0 +1,12 @@
+@import '../styles/styles.scss';
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: $high-light;
+
+    &_section {
+        display: flex;
+        flex-direction: column;
+    }
+}
